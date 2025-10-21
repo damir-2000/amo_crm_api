@@ -7,7 +7,7 @@ requirements = ["pydantic>=2.6.0", "PyJWT>=2.8.0", "requests>=2.31.0"]
 
 setup(
     name="amo_crm_api",
-    version="0.1.29",
+    version="0.1.30",
     author="damir-2000",
     author_email="gilemhonov.damir@gmail.com",
     description="Amo CRM Api",

@@ -65,6 +65,8 @@ class URLField(TextField):
 class AddressField(TextField):
     valid_type = ["streetaddress"]
 
+class TrackingField(TextField):
+    valid_type = ["tracking_data"]
 
 class CheckboxField(CustomFieldType):
     """return -> bool"""
