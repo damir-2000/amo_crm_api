@@ -40,7 +40,7 @@ class LeadSchema(BaseModelForFieldsSchema):
     status_id: Optional[int] = None
     old_status_id: Optional[int] = None
     pipeline_id: Optional[int] = None
-    loss_reason_id: Optional[int] = None
+    # loss_reason_id: Optional[int] = None
     created_by: Annotated[
         Optional[int],
         Field(
